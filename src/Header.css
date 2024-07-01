@@ -1,0 +1,77 @@
+.header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #c9d0d9;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header_logo {
+  width: auto;
+  font-size: 20px;
+  padding: 2px;
+  text-decoration: none;
+  object-fit: contain;
+  margin: 0px 8px;
+  margin-top: 0px;
+  color: rgb(48, 89, 89);
+}
+#header__Logolink {
+  color: rgb(48, 89, 89);
+}
+.header_search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+.header_searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  background-color: white;
+}
+.header_searchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: rgb(182, 234, 234);
+}
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(48, 89, 89);
+}
+/* .header_option:hover {
+  border: 1px solid white;
+} */
+.header__optionLineOne {
+  font-size: 10px;
+}
+.header__optionLineTwo {
+  font-size: 13;
+  font-weight: 800;
+}
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: rgb(48, 89, 89);
+}
+.header_basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header_logo > a {
+  text-decoration: none;
+}
+.header_nav > a {
+  text-decoration: none;
+}
